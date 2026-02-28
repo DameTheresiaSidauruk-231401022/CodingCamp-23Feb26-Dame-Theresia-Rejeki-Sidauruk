@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theresia Delacroix Company</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <h2>Theresia Delacroix</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#profile">Our Profile</a>
+        <a href="#message">Message Us</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="banner">
+    <h1 id="welcome">Hi, Welcome To Our Website</h1>
+    <input type="text" id="nameInput" placeholder="Masukkan nama kamu">
+    <button onclick="setName()">Submit</button>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="profile">
+    <h2 class="section-title">About Our Company</h2>
+
+    <p class="about-text">
+        <b>Theresia Delacroix</b> adalah brand perhiasan mewah yang menghadirkan
+        desain elegan dengan kualitas terbaik untuk setiap momen spesial.
+    </p>
+
+    <div class="vm-box">
+        <div class="box">
+            <h3>Vision</h3>
+            <p>Menjadi brand perhiasan mewah terpercaya di Asia Tenggara.</p>
+        </div>
+
+        <div class="box">
+            <h3>Mission</h3>
+            <ul>
+                <li>Menyediakan perhiasan berkualitas tinggi</li>
+                <li>Menghadirkan desain elegan dan timeless</li>
+                <li>Memberikan pengalaman pelanggan terbaik</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- MESSAGE -->
+<section id="message">
+    <h2 class="section-title">Message Us</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Nama">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="phone" placeholder="Nomor HP">
+        <textarea id="messageText" placeholder="Pesan"></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <div id="result"></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 Theresia Delacroix • Luxury Jewelry Company</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
